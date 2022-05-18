@@ -27,5 +27,12 @@ button {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  
+}
+.list *{
+  margin-left: 6px;
+}
+
+img{
+  width: 200px;
+  height: 200px;
 }

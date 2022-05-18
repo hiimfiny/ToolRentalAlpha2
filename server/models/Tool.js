@@ -8,6 +8,20 @@ const ToolSchema = new mongoose.Schema({
     toolCount:{
         type: Number,
         required: true,
+    },
+    toolMaxCount:{
+        type: Number,
+        required: true,
+    },
+    toolRentCount:{
+        type: Number,
+        required: true,
+    },
+    toolDesc:{
+        type: String,
+    },
+    toolImg:{
+        type: String,
     }
 })
 
