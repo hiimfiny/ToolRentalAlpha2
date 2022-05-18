@@ -1,0 +1,38 @@
+.App, div {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 250px;
+  height: 25px;
+  font-size: 14px;
+  margin: 5px
+}
+
+label {
+  font-size: 14px;
+}
+
+button {
+  margin: 5px;
+}
+
+.list{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.list *{
+  margin-left: 6px;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+}
